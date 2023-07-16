@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Oswald","Quicksand","Montserrat";font-weight: 400
 .main-issues .carousel .banner-overlay-image .banner-overlay{width:inherit;height: inherit;padding:10px;background-color: rgba(0,0,0,0.4);}
 .main-issues .carousel .banner-overlay-image .banner-overlay .text-caption{position: absolute;bottom:0px}
 
-.news-item{width:100%;height:200px;border:1px solid red}
+.news-item{width:100%;height:200px;}
 .news-item .news-item-image{width:100%;height: inherit;background-color: rgba(0,0,0,0.4);}
 .article-content{width:100%;padding:10px;background-color:#fff;border:1px solid #ccc}
 
