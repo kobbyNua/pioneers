@@ -1,47 +1,63 @@
-*{margin:0px;padding:0px}
+*{margin: 0px;padding:0px}
+
 a,p,span,li{font-family:"Quicksand","Montserrat";font-weight: 400}
 h1,h2,h3,h4,h5,h6{font-family:"Oswald","Quicksand","Montserrat";font-weight: 400}
 
 
 #header{width:100%;padding:10px;background-color: white !important;margin-bottom:5px;}
 #header .navbar-brand{width:15%}
-#header .navbar-brand img{width:25%;vertical-align: top;}
+#header .navbar-brand img{width:45%;vertical-align: top;}
 #header .collapse.navbar-collapse ul li a{color:#333;padding:10px;width:160px;text-transform: uppercase;text-align:center;font-weight: bold}
 
 
 .main-issues{background-color: #fff;padding:10px;height:450px;margin-bottom: 10px;}
 .main-issues .carousel{width:100;height:420px;}
 .main-issues .carousel .banner-overlay-image{width:100%;height:420px;background-size:cover;background-position: center center;background-repeat: no-repeat;}
-.main-issues .carousel .banner-overlay-image .banner-overlay{width:inherit;height: inherit;padding:10px;background-color: rgba(0,0,0,0.4);}
+.main-issues .carousel .banner-overlay-image .banner-overlay{width:inherit;height: inherit;padding:10px;background-color: rgba(0,0,0,0.1);}
 .main-issues .carousel .banner-overlay-image .banner-overlay .text-caption{position: absolute;bottom:0px}
 
-.news-item{width:100%;height:200px;}
-.news-item .news-item-image{width:100%;height: inherit;background-color: rgba(0,0,0,0.4);}
-.article-content{width:100%;padding:10px;background-color:#fff;border:1px solid #ccc}
 
+.news-item{width:100%;height:206px;}
+.news-item .news-item-image{width:100%;height: inherit;background-color: rgba(0,0,0,0.1);}
+
+
+.article-content{width:100%;padding:10px;background-color:#fff;border:1px solid #f2f2f2}
 .article-main-content{width:100%;}
-.article-main-content-image{width:100%;height:350px;background-color: rgba(0,0,0,0.4);}
-
+.article-main-content-image{width:100%;height:150px;background-color: rgba(0,0,0,0.1);}
 .article-main-story{width:100%;height:15vh;border-bottom:1px dotted #f3f3f3;margin-bottom:5px;padding-bottom: 5px;}
-.article-story-image{width:25%;height:inherit;background-color:rgba(0,0,0,0.4);}
+.article-story-image{width:25%;height:inherit;background-color:rgba(0,0,0,0.1);}
 
-.photo-album{width:100%;padding:10px;background-color: #fff;height:72vh}
-.image-box{width:23.3%;height:15vh;background-color: rgba(0,0,0,0.4);float:left;margin-left:5px;margin-bottom: 5px;}
+.side-card{width:100%;padding:20px;background-color:#fff;border:1px solid #f2f2f2}
+.side-card .president-image{width:250px;height: 250px;border-radius:50%;background-color: rgba(0,0,0,0.1);}
+.side-card .president-image img{width:inherit;height:inherit;border-radius: inherit;}
+.side-card-project-header{width:100%;padding:10px;background-color: #fff;}
+
+.projects-card{width:100%;height:12vh;margin-bottom:6px;margin-top:6px}
+.project-card-number{width:20%;height:12vh;background-color: #4267B2;text-align: center;}
+.project-card-number h4{font-family: 'Oregano';font-size:4em;font-weight: bolder;color:#fff}
+.project-card-details{width:80%;height:12vh;background-color: #fff;padding:4px}
+
 .team-members{width:100%;padding:15px;background-color:#4267B2;height:67vh}
 .team-members h1{font-family:"Oregano";color:#fff;font-size:4.5em}
 
 
+.photo-album{width:100%;padding:10px;background-color: #fff;height:72vh}
+.image-box{width:23.3%;height:15vh;background-color: rgba(0,0,0,0.1);float:left;margin-left:5px;margin-bottom: 5px;}
 
+.photo-protrait{width:100%;height:250px;margin-bottom: 10px;background-color: rgba(0,0,0,0.1);}
+.photo-protrait-circle-box{text-align: center;}
+.photo-protrait-circle{width:250px;height:250px;border-radius: 50%;margin-bottom: 10px;background-color: rgba(0,0,0,0.1);}
 
+.panedy-image{padding:40px 0px}
+.panedy-image img{width:85%;height:70vh}
 
-
-
-
-
-
-
-
-
+.address-card{width:100%;height: 14vh;margin-bottom:15px;border-bottom:1px solid #f2f2f2;}
+.address-card-icon{width:15%;height:14vh;background-color: #4267B2;text-align: center;padding:5px;line-height: 15vh;}
+.address-card-icon i{font-size:2.0em;color:#fff}
+.address-card-details{width:80%;height:14vh;}
+.article-content input{border-top:none;border-right: none;border-left: none;border-radius: 0px;}
+.article-content input::placeholder{font-family:"Quicksand","Montserrat";font-weight: 400 ;}
+.article-content textarea{height:25vh;border-top:none;border-right: none;border-left: none;border-radius: 0px;}
 
 
 
